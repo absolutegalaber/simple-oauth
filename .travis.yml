@@ -1,0 +1,7 @@
+language: java
+
+script: ./gradlew setup check --stacktrace
+
+after_success:
+- ./gradlew jacocoReport coveralls
+
