@@ -10,8 +10,5 @@ gradle build
 ###CI
 [Travis CI](https://travis-ci.org/absolutegalaber/simple-oauth)
 
-Test change for travis
-
-
 
 
