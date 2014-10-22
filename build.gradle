@@ -35,6 +35,7 @@ apply plugin: 'groovy'
 apply plugin: 'maven'
 apply plugin: 'project-report'
 apply plugin: 'jacoco'
+apply plugin: 'com.github.kt3k.coveralls'
 
 /**
  * Java 1.7
