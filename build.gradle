@@ -76,8 +76,7 @@ jacoco {
 }
 jacocoTestReport {
     reports {
-        xml.enabled false
-        csv.enabled false
-        html.destination "${buildDir}/jacocoHtml"
+        xml.enabled = true // coveralls plugin depends on xml format report
+        html.enabled = true
     }
 }
