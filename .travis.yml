@@ -3,5 +3,5 @@ language: java
 script: ./gradlew check --stacktrace
 
 after_success:
-- ./gradlew jacocoReport coveralls
+- ./gradlew jacocoTestReport coveralls
 
