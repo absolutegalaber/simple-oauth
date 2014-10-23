@@ -2,8 +2,8 @@
  * BAse Project Config
  */
 description = 'Simple OAuth'
-version = '0.1-SNAPSHOT'
-group = 'org.absolutegalaber.oauth.core'
+version = '0.1'
+group = 'org.absolutegalaber'
 
 /**
  * Repos
